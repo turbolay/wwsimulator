@@ -39,7 +39,7 @@ def client(executor, round):
                     
 def performTestAsync():
     roundsResults = []
-    with ThreadPoolExecutor(max_workers=1000) as executor:
+    with ThreadPoolExecutor(max_workers=10000) as executor:
         for i in range(0, sampleNbRounds):
             rnd = RoundSimulator()
             roundRequestTiming = []

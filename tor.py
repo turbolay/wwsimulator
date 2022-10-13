@@ -19,7 +19,7 @@ def setExitNodes(exitNodes):
     if len(exitNodeStr) > 1:
         exitNodeStr = exitNodeStr[:-1]
     
-    return subprocess.call(torControlScript + " setconf ExitNodes="+str(exitNode) + " > /dev/null",shell=True)
+    return subprocess.call(torControlScript + " setconf ExitNodes="+str(exitNodeStr) + " > /dev/null",shell=True)
 
 def setCircuitBuildTimeout():
     return subprocess.call(torControlScript + " setconf CircuitBuildTimeout="+str(circuitBuildTimeout) + " > /dev/null",shell=True)

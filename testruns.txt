@@ -124,3 +124,27 @@ Round 7: SUCCESS / Requests: Avg: 5.51 - Max: 13.12 - sd: 2.53
 Round 8: SUCCESS / Requests: Avg: 6.65 - Max: 19.55 - sd: 3.53
 Round 9: SUCCESS / Requests: Avg: 5.99 - Max: 22.40 - sd: 3.42
 Round 10: SUCCESS / Requests: Avg: 6.03 - Max: 20.33 - sd: 2.96
+
+sampleNbRounds = 5
+clearnet = False
+exitNodesSubset = ""
+concurrentFallbackRequests = 3
+Round 1: FAIL Phase.TransactionSigning / Requests: Avg: 32.60 - Max: 112.00 - sd: 21.76
+Round 2: FAIL Phase.OutputRegistration / Requests: Avg: 27.50 - Max: 186.44 - sd: 17.87
+Round 3: SUCCESS / Requests: Avg: 133.60 - Max: 134.49 - sd: 2.80
+Round 4: FAIL Phase.OutputRegistration / Requests: Avg: 58.71 - Max: 155.82 - sd: 47.98
+Round 5: SUCCESS / Requests: Avg: 114.76 - Max: 147.29 - sd: 15.79
+-> Run very bad, network seems really degraded but still 2 successes
+
+directly after with:
+exitNodesSubset = ["45.141.215.92", "185.220.103.117", "45.66.35.35"]
+Round 1: SUCCESS / Requests: Avg: 10.08 - Max: 25.31 - sd: 6.40
+Round 2: SUCCESS / Requests: Avg: 9.30 - Max: 22.21 - sd: 2.99
+Round 3: SUCCESS / Requests: Avg: 12.56 - Max: 20.66 - sd: 1.41
+Round 4: SUCCESS / Requests: Avg: 10.80 - Max: 19.47 - sd: 3.93
+Round 5: SUCCESS / Requests: Avg: 13.09 - Max: 26.35 - sd: 4.89
+Round 6: SUCCESS / Requests: Avg: 12.98 - Max: 20.42 - sd: 4.32
+Round 7: SUCCESS / Requests: Avg: 11.19 - Max: 19.52 - sd: 3.79
+Round 8: SUCCESS / Requests: Avg: 13.55 - Max: 27.08 - sd: 4.76
+Round 9: SUCCESS / Requests: Avg: 13.09 - Max: 23.69 - sd: 3.86
+Round 10: SUCCESS / Requests: Avg: 14.03 - Max: 20.60 - sd: 4.05
