@@ -94,3 +94,33 @@ Round 7: SUCCESS / Requests: Avg: 9.85 - Max: 23.81 - sd: 5.13
 Round 8: SUCCESS / Requests: Avg: 11.09 - Max: 32.44 - sd: 6.02
 Round 9: SUCCESS / Requests: Avg: 10.08 - Max: 27.61 - sd: 5.14
 Round 10: FAIL Phase.OutputRegistration / Requests: Avg: 12.18 - Max: 55.39 - sd: 8.13
+
+sampleNbRounds = 10
+clearnet = True
+exitNodesSubset = ["45.141.215.92", "185.220.103.117", "45.66.35.35"]
+concurrentFallbackRequests = 3
+Round 1: SUCCESS / Requests: Avg: 5.60 - Max: 13.32 - sd: 3.02
+Round 2: SUCCESS / Requests: Avg: 5.01 - Max: 22.75 - sd: 3.64
+Round 3: SUCCESS / Requests: Avg: 6.61 - Max: 16.01 - sd: 3.72
+Round 4: SUCCESS / Requests: Avg: 6.50 - Max: 18.47 - sd: 3.82
+Round 5: SUCCESS / Requests: Avg: 6.73 - Max: 19.34 - sd: 4.02
+Round 6: SUCCESS / Requests: Avg: 6.93 - Max: 20.24 - sd: 3.73
+Round 7: SUCCESS / Requests: Avg: 7.18 - Max: 20.03 - sd: 4.44
+Round 8: SUCCESS / Requests: Avg: 6.57 - Max: 17.68 - sd: 3.54
+Round 9: SUCCESS / Requests: Avg: 5.98 - Max: 19.34 - sd: 3.09
+Round 10: SUCCESS / Requests: Avg: 6.37 - Max: 12.79 - sd: 3.09
+
+sampleNbRounds = 10
+clearnet = True
+exitNodesSubset = ["45.141.215.92", "185.220.103.117", "45.66.35.35"]
+concurrentFallbackRequests = 1
+Round 1: SUCCESS / Requests: Avg: 5.98 - Max: 19.93 - sd: 3.58
+Round 2: SUCCESS / Requests: Avg: 6.58 - Max: 16.68 - sd: 3.62
+Round 3: SUCCESS / Requests: Avg: 6.78 - Max: 23.88 - sd: 4.13
+Round 4: SUCCESS / Requests: Avg: 5.63 - Max: 13.21 - sd: 3.14
+Round 5: SUCCESS / Requests: Avg: 6.26 - Max: 13.68 - sd: 3.24
+Round 6: SUCCESS / Requests: Avg: 6.85 - Max: 16.51 - sd: 3.81
+Round 7: SUCCESS / Requests: Avg: 5.51 - Max: 13.12 - sd: 2.53
+Round 8: SUCCESS / Requests: Avg: 6.65 - Max: 19.55 - sd: 3.53
+Round 9: SUCCESS / Requests: Avg: 5.99 - Max: 22.40 - sd: 3.42
+Round 10: SUCCESS / Requests: Avg: 6.03 - Max: 20.33 - sd: 2.96
